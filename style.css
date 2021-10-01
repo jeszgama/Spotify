@@ -1,0 +1,281 @@
+/*====== reset ======*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*====== title ======*/
+
+h1 {
+  font: "PT Sans", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+/*====== menu ======*/
+#header {
+  background-color: black;
+  -webkit-font-smoothing: auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 40% 45%;
+  align-items: center;
+  margin: auto;
+  height: 5rem;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.logo {
+  max-width: 9.8rem;
+  max-height: 2.8rem;
+  width: auto;
+  height: auto;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu:hover {
+  color: #00e640;
+}
+
+.menu,
+span {
+  color: white;
+  margin: 0px 15px;
+}
+
+.toggle {
+  cursor: pointer;
+}
+
+/*====== premium ======*/
+.section-premium {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  padding: 6rem;
+  align-items: center;
+  background-color: #be90d4;
+  margin: auto;
+  height: 34rem;
+  font-weight: 900;
+  justify-content: center;
+  font-size: 0.98rem;
+}
+
+.grid {
+  display: flex;
+  flex-flow: column;
+}
+
+.botao-premium {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2rem;
+  height: 3rem;
+  width: 19rem;
+  border-radius: 3rem;
+  background-color: black;
+}
+
+.botao-premium:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.imagem-premium {
+  max-width: 25.5rem;
+  max-height: 25.5rem;
+  width: auto;
+  height: auto;
+}
+
+/*====== free ======*/
+.section-free {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  padding: 6rem;
+  align-items: center;
+  background-color: #1f3a93;
+  color: #34d862;
+  margin: auto;
+  height: 37.2rem;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.98rem;
+}
+
+.botao-free {
+  color: #1f3a93;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2rem;
+  height: 3rem;
+  width: 19rem;
+  border-radius: 3rem;
+  background-color: #34d862;
+}
+
+.botao-free:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+/*====== footer ======*/
+.section-footer {
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  padding: 5rem;
+  background-color: black;
+  color: white;
+  margin: auto;
+  height: 23rem;
+  font-weight: 900;
+  justify-content: center;
+  font-size: 0.98rem;
+}
+
+/*====== seção container ======*/
+
+.title-footer {
+  color: rgb(133, 127, 127);
+  font-size: 0.8rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25fr 25fr 25fr 25fr;
+  justify-content: flex-start;
+}
+
+footer #title a {
+  white-space: nowrap;
+  color: white;
+}
+
+footer #title {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.4rem;
+}
+
+footer #title a:hover {
+  color: #34d862;
+}
+
+/*====== footer social media ======*/
+
+.social {
+  display: flex;
+  grid-template-columns: 20fr 20fr 20fr;
+  justify-content: flex-end;
+  align-self: flex-start;
+  padding: 1.5rem;
+  /* justify-content: space-evenly; */
+}
+
+.botao-media {
+  color: white;
+  padding: 3rem;
+  margin: 0.4rem;
+
+  background-color: #2e3131;
+
+  clip-path: circle();
+
+  position: center;
+
+  font-size: 1.43rem;
+}
+
+footer #titles {
+  padding: 1rem;
+}
+
+footer .social a i:hover {
+  color: #34d862;
+}
+
+/*====== footer rodape ======*/
+.footer-rodape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: black;
+  color: white;
+  margin: auto;
+  height: 10rem;
+  font-size: 0.7rem;
+}
+
+.footer-rodape #title a {
+  white-space: nowrap;
+  font-weight: normal;
+  color: rgb(133, 127, 127);
+}
+
+.footer-rodape #title {
+  padding: 2rem;
+  display: flex;
+
+  grid-gap: 1.4rem;
+}
+
+.footer-rodape #title a:hover {
+  color: #34d862;
+}
+
+.rodape-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-rodape li img {
+  height: 1rem;
+  width: 1rem;
+}
