@@ -160,6 +160,91 @@ span {
   cursor: pointer;
 }
 
+/*====== desenho ======*/
+#free {
+  overflow: hidden;
+}
+
+#free .grid {
+  margin: 0;
+}
+
+#free .grid {
+  position: relative;
+}
+
+#free .grid::before {
+  content: "";
+  height: 60%;
+  width: 60%;
+  background: #34d862;
+  position: absolute;
+  clip-path: circle();
+  top: -90%;
+  left: 50%;
+  z-index: 0;
+}
+
+#free .desenho1 {
+  margin: 0;
+}
+
+#free .desenho1 {
+  position: relative;
+}
+
+#free .desenho1::before {
+  content: "";
+  height: 42rem;
+  width: 55rem;
+  background: #34d862;
+  position: absolute;
+  clip-path: circle();
+  top: 17rem;
+  left: 28rem;
+  z-index: 0;
+}
+
+#free .desenho2 {
+  margin: 0;
+}
+
+#free .desenho2 {
+  position: relative;
+}
+
+#free .desenho2::before {
+  content: "";
+  height: 20rem;
+  width: 20rem;
+  background: #1f3a93;
+  position: absolute;
+  clip-path: circle();
+  top: 1rem;
+  left: 44.9rem;
+  z-index: 0;
+}
+
+#free .desenho3 {
+  margin: 0;
+}
+
+#free .desenho3 {
+  position: relative;
+}
+
+#free .desenho3::before {
+  content: "";
+  height: 40rem;
+  width: 40rem;
+  background: #34d862;
+  position: absolute;
+  clip-path: circle();
+  top: -26rem;
+  left: 72rem;
+  z-index: 0;
+}
+
 /*====== footer ======*/
 .section-footer {
   display: grid;
